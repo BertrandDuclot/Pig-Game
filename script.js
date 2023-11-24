@@ -51,7 +51,7 @@ btnRoll.addEventListener("click", function () {
 
     // Show the dice number
     diceEl.classList.remove("hidden");
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `Dices img/dice-${dice}.png`;
 
     // Check if dice rolled 1F
     if (dice !== 1) {
