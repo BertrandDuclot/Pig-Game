@@ -53,7 +53,7 @@ btnRoll.addEventListener("click", function () {
     diceEl.classList.remove("hidden");
     diceEl.src = `Dices img/dice-${dice}.png`;
 
-    // Check if dice rolled 1F
+    // Check if dice rolled
     if (dice !== 1) {
       currentScore += dice;
       document.getElementById(`current--${activePlayer}`).textContent =
